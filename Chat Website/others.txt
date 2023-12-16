@@ -1,0 +1,5 @@
+rgb(52, 53, 65)
+rgb(32, 33, 35)
+rgb(64, 65, 79)
+
+ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser

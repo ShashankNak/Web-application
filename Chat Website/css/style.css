@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(52, 53, 65);
+    height: 100vh;
+    display: flex;
+}
+
+nav {
+    background-color: rgb(32, 33, 35);
+    text-align: center;
+    padding: 2% 1%;
+    width: 20%;
+    overflow-y: auto;
+}
+
+.logo {
+    margin: 10px auto 50px;
+    width: 35%;
+    height: 15%;
+}
+.domain{
+    display: block;
+    text-align: center;
+    margin: 2% 0;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+}
+
+
+.container {
+    max-width: 100%;
+    /* background-color: white; */
+    margin: auto;
+    height: 75%;
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.message {
+    background-color: rgb(133, 133, 142);
+    color: white;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.send {
+    display: block;
+}
+#send-container{
+    margin: 10px auto;
+    text-align: center;
+    max-width: 985px;
+    display: flex;
+    width: 100%;
+    justify-content: baseline;
+    padding: 1%;
+    background-color: rgb(64, 65, 79);
+    border-radius: 10px;
+}
+
+.chatbox {
+    display: block;
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+}
+#messageInp{
+    writing-mode: horizontal-tb !important;
+    font-size: 20px;
+    text-rendering: auto;
+    color: white;
+    text-align: center;
+    width: 92%;
+    display: inline-block;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    border: none;
+    cursor: text;
+    letter-spacing: normal;
+    word-spacing: normal;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    overflow-y: hidden;
+    background: none;
+    max-height: 200px;
+    height: 35px;
+}
+
+.sendimg{
+    cursor: pointer;
+    margin-top: 4px;
+    margin-left: 20px;
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.names{
+    color: white;
+    padding: 2%;
+    background-color: rgb(150, 150, 150);
+    margin: 5%;
+    border-radius: 5px;
+}
+
+/* .users{
+    display: block;
+} */

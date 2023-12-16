@@ -1,0 +1,17 @@
+.con{
+    display: flex;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    list-style-type: none;
+    margin: auto;
+}
+
+.list{
+    padding: 20px;
+    /* margin: 20px; */
+}
+.headi{
+    font-size: large;
+    color: aqua;
+}
